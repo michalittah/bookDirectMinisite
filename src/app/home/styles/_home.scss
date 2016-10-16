@@ -1,11 +1,30 @@
 .home{
   margin-top: 2rem;
-  .img-circle-yeti {
-    @include circle(30%, 30%);
-    margin-bottom: 40px;
+  .form {
+    background: whitesmoke;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid gainsboro;
+  }
+  .panel{
+    background: whitesmoke;
+  }
+  .options-title{
+    padding: 10px 10px;
+    margin: 0;
+    border: 1px solid gainsboro;
+    border-bottom: none;
+    background: whitesmoke;
   }
   table {
     width: 100%;
+    thead{
+      tr{
+        background: white;
+        border: 1px solid gainsboro;
+      }
+    }
   }
   .check-btn{
     margin-top: 21px;

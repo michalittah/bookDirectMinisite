@@ -24,6 +24,7 @@ angular.module('angularjs-foundation-boilerplate', [
 
   // Components
   'app.topbar',
+  'app.bottombar',
   'app.home',
   'app.about'
 ])

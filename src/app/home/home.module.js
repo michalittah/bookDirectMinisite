@@ -1,8 +1,7 @@
 angular.module('app.home', [
   'ui.router',
   'home.controllers',
-  'home.services',
-  'home.directives'
+  'home.services'
 ])
 
 .config(function config($stateProvider) {

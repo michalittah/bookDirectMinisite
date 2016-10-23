@@ -12,6 +12,7 @@ angular.module('angularjs-foundation-boilerplate', [
   // AngularJS dependencies
   'ui.router',
   'ngResource',
+  'ngMap',
 
   // Include compiled HTML templates
   'app.templates',

@@ -25,8 +25,14 @@ module.exports = {
       'vendor/modernizr/modernizr.js',
 
       // Foundation
-      'vendor/foundation/js/foundation.min.js'
+      'vendor/foundation/js/foundation.min.js',
+
+
+      // ng-map
+      'vendor/ngmap/build/scripts/ng-map.min.js'
     ],
+
+
     css: [ ],
     assets: [ ]
 };

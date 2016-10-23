@@ -10,44 +10,110 @@
   z-index: -1;
   position: fixed;
 }
-.home{
+
+.home {
   padding: 2rem 0;
-  background: rgba(0, 0, 0, 0.4);
-  .home-container{
+  background: white;
+  .home-container {
     width: 100%;
     background: rgba(255, 255, 255, 0.2);
     padding: 1rem;
   }
   .form {
-    background: whitesmoke;
+    background: #ffca55;
     width: 100%;
     margin: 1rem 0;
     padding: 1rem;
-    border: 1px solid gainsboro;
+    border: 1px solid #daa300;
+    border-radius: 3px;
   }
-  .panel{
-    background: whitesmoke;
+  .panel {
+    background: #f2f5f9;
   }
-  .options-title{
-    padding: 10px 10px;
+
+  .orbit-container .orbit-slides-container img {
+    width: 100%;
+  }
+
+  .options-title {
+    padding: 8px 10px;
     margin: 0;
     border: 1px solid gainsboro;
     border-bottom: none;
-    background: whitesmoke;
+    background: #f2f5f9;
   }
   table {
     width: 100%;
-    thead{
-      tr{
-        background: white;
+    border: none;
+    .tabel {
+      padding: 0;
+      padding-top: 20px;
+      padding-left: 10px;
+      table {
         border: 1px solid gainsboro;
+        thead {
+          tr {
+            background: white;
+            border: 1px solid gainsboro;
+          }
+        }
       }
     }
+    ul {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      list-style-position: inherit;
+      margin-bottom: inherit;
+    }
   }
-  .check-btn{
+  .check-btn {
     margin-top: 21px;
     height: 2.3125rem;
     padding: 9px 1.5rem;
+    background: #0896ff;
   }
+
+  .content {
+    margin-top: 10px;
+  }
+
+  .sub-nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    max-width: 60rem;
+    dd {
+      display: block;
+      text-align: center;
+      padding: 10px;
+      font-weight: normal;
+      border-right: 5px solid #fff;
+      text-decoration: none;
+      position: relative;
+      background-color: #f2f5f9;
+      margin: auto;
+      width: 100%;
+
+      a {
+        color: #0096ff;
+      }
+    }
+  }
+
+  .fixed {
+    background: #FFFFFF;
+    padding: 5px 0 7px 0;
+
+    .sub-nav {
+      display: flex;
+      overflow: hidden;
+      padding-top: 0.25rem;
+      width: auto;
+      margin: auto;
+
+    }
+  }
+
 }
 
